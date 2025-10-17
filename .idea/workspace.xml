@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="672658e5-f57d-466a-93a6-19cc530d6dc6" name="Changes" comment="1 comitt">
+    <list default="true" id="672658e5-f57d-466a-93a6-19cc530d6dc6" name="Changes" comment="2 comitt">
       <change beforePath="$PROJECT_DIR$/django_posts/posts/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_posts/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1760671457753</updated>
-      <workItem from="1760671459263" duration="4319000" />
+      <workItem from="1760671459263" duration="4675000" />
     </task>
     <task id="LOCAL-00001" summary="1 comitt">
       <option name="closed" value="true" />
@@ -98,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760674658490</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2 comitt">
+      <option name="closed" value="true" />
+      <created>1760675807938</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1760675807938</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +116,7 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="1 comitt" />
-    <option name="LAST_COMMIT_MESSAGE" value="1 comitt" />
+    <MESSAGE value="2 comitt" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 comitt" />
   </component>
 </project>
