@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="672658e5-f57d-466a-93a6-19cc530d6dc6" name="Changes" comment="2 comitt">
-      <change afterPath="$PROJECT_DIR$/django_posts/posts/static/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_posts/posts/static/font/Roboto-Italic-VariableFont_wdth,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_posts/posts/static/font/Roboto-VariableFont_wdth,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_posts/posts/static/img/img.jpg" afterDir="false" />
+    <list default="true" id="672658e5-f57d-466a-93a6-19cc530d6dc6" name="Changes" comment="3 comitt">
+      <change afterPath="$PROJECT_DIR$/django_posts/posts/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/posts/templates/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_posts/posts/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_posts/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_posts/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +36,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="34B03JKmBZ89muI6VHJ8E6nK9R3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -128,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760675807938</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="3 comitt">
+      <option name="closed" value="true" />
+      <created>1760698921904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1760698921904</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +151,7 @@
     </ignored-roots>
     <MESSAGE value="1 comitt" />
     <MESSAGE value="2 comitt" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 comitt" />
+    <MESSAGE value="3 comitt" />
+    <option name="LAST_COMMIT_MESSAGE" value="3 comitt" />
   </component>
 </project>
