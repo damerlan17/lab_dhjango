@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="672658e5-f57d-466a-93a6-19cc530d6dc6" name="Changes" comment="починил css">
-      <change afterPath="$PROJECT_DIR$/django_posts/posts/static/img/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/django_posts/posts/templates/banner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/posts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/posts/templates/create_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/django_posts/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_posts/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_posts/posts/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_posts/posts/static/font/Roboto-Italic-VariableFont_wdth,wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/static/font/Roboto-Italic-VariableFon.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_posts/posts/static/font/Roboto-VariableFont_wdth,wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/static/font/Roboto-VariableFont.ttf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_posts/posts/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_posts/posts/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/django_posts/posts/templates/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/django_posts/posts/templates/post_list.html" afterDir="false" />
@@ -22,6 +27,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,7 +67,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/uchun/PycharmProjects/lab_dhjango1/django_posts/posts/static/img",
+    "last_opened_file_path": "C:/Users/uchun/PycharmProjects/lab_dhjango1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -67,6 +79,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uchun\PycharmProjects\lab_dhjango1" />
+      <recent name="C:\Users\uchun\PycharmProjects\lab_dhjango1\django_posts\posts\templates" />
       <recent name="C:\Users\uchun\PycharmProjects\lab_dhjango1\django_posts\posts\static\img" />
       <recent name="C:\Users\uchun\PycharmProjects\lab_dhjango1\django_posts\posts\static\font" />
     </key>
@@ -169,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1760781338075</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="починил css">
+      <option name="closed" value="true" />
+      <created>1760787265310</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1760787265310</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

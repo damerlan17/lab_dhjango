@@ -5,8 +5,8 @@
 {% block content %}
     {% for post in posts %}
     <div class="post-card">
-        <p class="post-card-title" >{{posts.title}}</p>
-        <p class="post-card-detail">{{post.detail}}</p>
+        <p class="post-card-title" >{{post.title}}</p>
+        <p class="post-card-detail">{{post.content}}</p>
     </div>
     {% endfor %}
 {% endblock content %}

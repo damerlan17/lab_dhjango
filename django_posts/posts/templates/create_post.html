@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %} Создать пост {% endblock title %}
+{% block header %} Создать пост {% endblock header %}
+
+{% block content %}
+<form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Сохрантить">
+</form>
+{% endblock content %}

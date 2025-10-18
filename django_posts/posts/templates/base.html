@@ -7,12 +7,13 @@
     <link rel="stylesheet" href='{% static "css/style.css" %}'>
 </head>
 <body>
-    <nav>
-        <a href="/posts">Посты</a>
-    </nav>
-    <main>
-        <h2>{% block header %}{% endblock header %}</h2>
-        <div class="content">{% block content %}{% endblock content %}</div>
-    </main>
+<nav>
+    <a href="/posts">Посты</a>
+    <a href="/posts/create_post">Добавить пост</a>
+</nav>
+<main>
+    <h2>{% block header %}{% endblock header %}</h2>
+    <div class="content">{% block content %}{% endblock content %}</div>
+</main>
 </body>
 </html>
