@@ -6,12 +6,12 @@ src: url(../Roboto-Italic-VariableFont_wdth,wght.ttf)
 :root {
     --main-bg-color: #171717;
     --content-bg-color: #202020;
-    --element-active-color: #ff77c0;
+    --element-active-color: #FF77C0;
     --content-text-color: #FFCBDD;
 }
 
 :root {
-scrollbar-color: var(--content-bg-color))
+    scrollbar-color: var(--content-bg-color) var(--main-bg-color);
 }
 
 * {
@@ -25,19 +25,29 @@ body {
     background-color: var(--main-bg-color);
 }
 
-#content {
-    margin: 0 auto;
+main, nav{
+    margin: 15px auto;
     background-color: var(--content-bg-color);
     width: 800px;
     padding: 15px;
 }
 
-#content > img {
+nav > a{
+    color:var(--content-bg-color);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.content > img {
     width: 500px;
 }
 
-#content > h2 {
-    color: var(--element-active-color);
+main > h2 {
+    color: var(--content-text-color);
     font-size: 30pt;
-    font-family: 'Roboto';
+}
+
+.content > h2 {
+    color: var(--element-text-color);
+    font-size: 20pt;
 }
