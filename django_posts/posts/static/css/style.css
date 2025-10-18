@@ -1,13 +1,13 @@
 @font-face {
 font-family: "Roboto";
-src: url(../Roboto-Italic-VariableFont_wdth,wght.ttf)
 }
 
 :root {
     --main-bg-color: #171717;
     --content-bg-color: #202020;
-    --element-active-color: #FF77C0;
+    --element-active-color: #FFCBDD;
     --content-text-color: #FFCBDD;
+    --font-google:'Roboto';
 }
 
 :root {
@@ -18,7 +18,7 @@ src: url(../Roboto-Italic-VariableFont_wdth,wght.ttf)
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: var(--font-google);
 }
 
 body {
@@ -32,10 +32,10 @@ main, nav{
     padding: 15px;
 }
 
-nav > a{
-    color:var(--content-bg-color);
+nav > a {
+    color: var(--content-text-color);
     text-decoration: none;
-    font-size: 20px;
+    font-size: 20pt;
 }
 
 .content > img {
@@ -48,6 +48,28 @@ main > h2 {
 }
 
 .content > h2 {
-    color: var(--element-text-color);
+    color: var(--content-text-color);
     font-size: 20pt;
+}
+
+.banner {
+    color: var(--content-text-color);
+    background-color: var(--main-bg-color);
+    padding: 15px;
+}
+
+.post-card {
+    background-color: var(--main-bg-color);
+    padding:15px;
+    margin: 10px auto;
+    color: var(--content-text-color)
+}
+
+.post-card-title, .post-card-detail {
+    color: var(--content-text-color);
+}
+
+.post-card-title {
+    color: var(--element-active-color);
+    font-size: 30pt;
 }
